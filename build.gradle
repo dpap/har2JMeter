@@ -7,7 +7,10 @@ version = '0.4.0.SNAPSHOT'
 mainClassName = 'har2jmeter.CliApplication'
 
 repositories {
-    mavenCentral()
+    //mavenCentral()
+    maven {
+        url "https://repo1.maven.org/maven2"
+    }
 }
 
 dependencies {
